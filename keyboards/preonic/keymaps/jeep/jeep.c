@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 , S(E)    , S(F)           , KC_7    , KC_8      , KC_9      , KC_PAST       , KC_F10  , KC_F11  , KC_F12 , KC_INS  , KC_HOME , KC_PGUP ,
 , S(C)    , S(D)           , KC_4    , KC_5      , KC_6      , KC_PMNS       , KC_F7   , KC_F8   , KC_F9  , KC_DEL  , KC_END  , KC_PGDN ,
 , S(A)    , S(B)           , KC_1    , KC_2      , KS_3      , KC_PPLS       , KC_F4   , KC_F5   , KC_F6  , LCTL(KC_MINS) , KC_UP   , LCTL(KC_PLUS) ,
-, KC_PENT , LALT_T(KC_SPC) , KC_0    , KC_00     , KC_PDOT   , LT(1,KC_PEQL) , KC_F1   , KC_F2   , KC_F3  , KC_LEFT , KC_DOWN , KC_RIGHT) ,
+, KC_PENT , LALT_T(KC_SPC) , KC_0    , KC_00     , KC_PDOT   , LT(1,KC_PEQL) , KC_F1   , KC_F2   , KC_F3  , KC_RGHT , KC_DOWN , KC_LEFT) ,
 	[1] = LAYOUT_ortho_5x12(
         KC_NO   ,   KC_NO    , KC_NO      , KC_NO      , KC_NO         ,KC_NO       ,KC_NO          ,KC_NO          ,KC_NO          , KC_MSEL , KC_MPLY , KC_MSTP ,
 KC_NO ,KC_NO       ,KC_NO       ,KC_NO       ,KC_NO       ,KC_NO          ,KC_NO       , KC_F22 , KC_F23 , KC_F24 ,KC_NO            ,KC_NO            , KC_MNXT ,
